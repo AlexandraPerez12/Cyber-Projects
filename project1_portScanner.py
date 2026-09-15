@@ -4,8 +4,7 @@ from datetime import datetime
 
 
 
-
-    
+service={}     
 target = sys.argv[1]
 start_time = datetime.now()
 print(f"Scan Started: {start_time}\nScanning target: {target}")
